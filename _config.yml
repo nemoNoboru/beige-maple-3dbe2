@@ -11,9 +11,9 @@ mode: light
 base_font: serif
 header:
   title: DIY
-  logo: images/classic/logo.svg
+  logo: images/elenaf.jpeg
   logo_alt: DIY logo
-  has_primary_nav: true
+  has_primary_nav: false
   primary_nav_links:
     - label: Features
       url: /features
@@ -32,13 +32,10 @@ header:
       style: link
   has_secondary_nav: true
   secondary_nav_links:
-    - label: Contact
-      url: /contact
-      style: link
-    - label: Get Started
+    - label: Contacto
       url: /pricing
       style: primary
-  has_anncmnt: true
+  has_anncmnt: false
   anncmnt_content: >-
     Curabitur ac tellus mattis, tempor ipsum eu, eleifend sapien. **[Learn
     More](/pricing/)**
@@ -47,18 +44,18 @@ header:
   anncmnt_has_close: true
   anncmnt_id: new-features
 footer:
-  logo: images/classic/logo.svg
+  logo: images/elenaf.jpeg
   logo_alt: DIY logo
   has_primary_nav: true
-  primary_nav_title: Company
+  primary_nav_title: Contacto
   primary_nav_links:
-    - label: About
+    - label: elenaferfor@emailQueNoSe.com
       url: /about
       style: link
-    - label: Style Guide
+    - label: elena's LinkedIn
       url: /style-guide
       style: link
-  has_secondary_nav: true
+  has_secondary_nav: false
   secondary_nav_title: Blog
   secondary_nav_links:
     - label: News
@@ -70,7 +67,7 @@ footer:
     - label: Tutorials
       url: /blog/category/tutorials
       style: link
-  has_tertiary_nav: true
+  has_tertiary_nav: false
   tertiary_nav_title: Legal
   tertiary_nav_links:
     - label: Terms & Conditions
