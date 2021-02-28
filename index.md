@@ -19,8 +19,6 @@ sections:
     padding_bottom: large
     background_color: primary
 
-  - type: sketchfab
-
   - type: features_section
     title: Portfolio
     subtitle: Curated work
@@ -166,7 +164,7 @@ sections:
 
           **Felipe Vieira,** *Co-Worker. Developer*
         image: images/felipe-vieira.jpeg
-        image_alt: Miles Tone
+        image_alt: Felipe Vieira
         image_position: left
         image_width: twenty-five
     grid_cols: two
@@ -174,31 +172,32 @@ sections:
     grid_gap_vert: large
     align: center
     background_color: secondary
+
 seo:
-  title: Stackbit DIY Theme
-  description: The preview of the DIY theme
+  title: Elena Fernandez Formoso
+  description: Portfolio
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit DIY Theme
+      value: Elena Fernandez Formoso
       keyName: property
     - name: 'og:description'
-      value: The preview of the DIY theme
+      value: Elena's Portfolio
       keyName: property
     - name: 'og:image'
-      value: images/diy-preview.png
+      value: images/elenaf.jpeg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit DIY Theme
+      value: Elena Fernandez Formoso
     - name: 'twitter:description'
-      value: The preview of the DIY theme
+      value: Elena's Portfolio
     - name: 'twitter:image'
-      value: images/diy-preview.png
+      value: images/elenaf.jpeg
       relativeUrl: true
 layout: advanced
 ---
