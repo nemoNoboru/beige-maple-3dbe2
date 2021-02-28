@@ -18,12 +18,14 @@ sections:
     padding_top: large
     padding_bottom: large
     background_color: primary
+
+  - type: sketchfab
+
   - type: features_section
     title: Portfolio
     subtitle: Curated work
     features:
       - title: Hard surface modelling
-        # subtitle: 'In fermentum odio et tortor laoreet, sed interdum augue ornare. '
         subtitle: >-
           Exploring Blender’s render engine to create interior design scenes. 
           A combination of rustic and modern design in a tiny kitchen.
@@ -35,6 +37,14 @@ sections:
         image_alt: Feature 1 placeholder image
         media_position: right
         media_width: fifty
+        # actions:
+        #   - label: Learn More
+        #     url: /hard-surface
+        #     style: primary
+        #     has_icon: true
+        #     icon: arrow-right
+        #     icon_position: right
+
       - title: Organic Modelling
         subtitle: >-
           Human figure made with Blender sculpting tools. The marble material was procedurally made with nodes to give it a natural accomodation to the anatomy of
@@ -45,22 +55,33 @@ sections:
         image_alt: Feature 2 placeholder image
         media_position: left
         media_width: fifty
+
       - title: Cartoon Style Modeling
         subtitle: >-
           Models with stylized features, like textures, colors or the shape itself. Plain shading or hand-painted textures to bring traditional art
           styles into a 3D perspective.
         content: >-
           Software used: Blender, Affinity Photo. Poly count: 7,848 tris.
-        actions:
-          - label: Learn More
-            url: /style-guide
-            style: primary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
         image: images/elena/flowercolorfull.png
         image_alt: Feature 3 placeholder image
         media_position: right
+        media_width: fifty
+
+      - title: Storyboarding And Sketching
+        subtitle: >-
+          Sketches and drawings to tell stories and bring concepts alive.
+        content: >-
+          Software used: Photoshop and SketchBook.
+        # actions:
+        #   - label: Learn More
+        #     url: /style-guide
+        #     style: primary
+        #     has_icon: true
+        #     icon: arrow-right
+        #     icon_position: right
+        image: images/elena/glitter_inspired.jpg
+        image_alt: Feature 3 placeholder image
+        media_position: left
         media_width: fifty
     feature_padding_vert: large
     align: center
@@ -111,6 +132,7 @@ sections:
     
     grid_gap_horiz: medium
     grid_gap_vert: medium
+
   - type: features_section
     features:
       - title: >-
@@ -124,47 +146,27 @@ sections:
     background_color: primary
   
   - type: grid_section
-    title: Reviews Section (?)
-    subtitle: Grid Section Example
+    title: Reviews Section
     grid_items:
       - content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus.
+         Elena, I was really pleased to be your Team Lead as part of the Lab01 3D Artist team. You have shown great talent in both 3D modeling and animation and made an impact in both clients and R&D projects. Any company should be lucky to have you on their team, keep pushing the boundaries of both technology and creativity!
 
 
-          **Hanson Deck,** *App Developer, Studio*
-        image: images/hanson-deck.png
-        image_alt: Hanson Deck
+          **Sebastian Veldman,** *Team lead at Accenture Interactive Lab01*
+        image: images/sebastian-veldman.jpeg
+        image_alt: Sebastian Veldman
         image_position: left
         image_width: twenty-five
       - content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus.
+          Elena is a joy to work with. She went the extra mile at every ocasion to provide assets that
+          had great quality and were technically very easy to work with for us developers. She also have a great
+          understanding of technical limitations and instrinsics of real time 3d and knows how to optimize models for that use case. Also her creativity was simply mind numbing at some times!
 
 
-          **Miles Tone,** *CEO, Studio*
-        image: images/miles-tone.png
+
+          **Felipe Vieira,** *Co-Worker. Developer*
+        image: images/felipe-vieira.jpeg
         image_alt: Miles Tone
-        image_position: left
-        image_width: twenty-five
-      - content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus.
-
-
-          **Eleanor Carr,** *CTO, Studio*
-        image: images/eleanor-carr.png
-        image_alt: Eleanor Carr
-        image_position: left
-        image_width: twenty-five
-      - content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus.
-
-
-          **Gordon Norman,** *Web Designer, Studio*
-        image: images/gordon-norman.png
-        image_alt: Gordon Norman
         image_position: left
         image_width: twenty-five
     grid_cols: two

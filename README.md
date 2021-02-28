@@ -28,7 +28,7 @@ You can [create a site](https://app.stackbit.com/create?theme=https://github.com
 
 1. Install Jekyll and Bundler:
 
-        gem install jekyll bundler
+        gem install jekyll bundler 
 
 1. Install dependencies from Gemfile:
 

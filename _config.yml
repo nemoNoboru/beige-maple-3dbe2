@@ -1,18 +1,18 @@
-title: Stackbit DIY Theme
+title: Elena's Portfolio
 baseurl: /
-permalink: '/:title/'
+permalink: "/:title/"
 collections:
   posts:
-    permalink: '/posts/:title/'
+    permalink: "/posts/:title/"
 layout_type: boxed
 style: classic
 palette: green
 mode: light
 base_font: serif
 header:
-  title: DIY
+  title: elenaf
   logo: images/elenaf.jpeg
-  logo_alt: DIY logo
+  logo_alt: elenaf logo
   has_primary_nav: false
   primary_nav_links:
     - label: Features
@@ -32,9 +32,9 @@ header:
       style: link
   has_secondary_nav: true
   secondary_nav_links:
-    - label: Contacto
-      url: /pricing
-      style: primary
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/elenaferfor/
+      style: secondary
   has_anncmnt: false
   anncmnt_content: >-
     Curabitur ac tellus mattis, tempor ipsum eu, eleifend sapien. **[Learn
@@ -49,11 +49,13 @@ footer:
   has_primary_nav: true
   primary_nav_title: Contacto
   primary_nav_links:
-    - label: elenaferfor@emailQueNoSe.com
-      url: /about
+    - label: elena.fer.for (at) outlook.es
       style: link
-    - label: elena's LinkedIn
-      url: /style-guide
+    - label: Artstation
+      url: https://elenaferfor.artstation.com/
+      style: link
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/elenaferfor/
       style: link
   has_secondary_nav: false
   secondary_nav_title: Blog
@@ -78,47 +80,22 @@ footer:
       style: link
   has_social: true
   social_links:
-    - label: Twitter
-      url: 'https://twitter.com/'
+    - label: Artstation
+      url: "https://elenaferfor.artstation.com/"
       style: link
-      has_icon: true
-      icon: twitter
-      icon_position: center
-      new_window: true
-    - label: GitHub
-      url: 'https://github.com/'
-      style: link
-      has_icon: true
-      icon: github
+      has_icon: false
+      icon: artstation
       icon_position: center
       new_window: true
     - label: LinkedIn
-      url: 'https://www.linkedin.com/'
+      url: "https://www.linkedin.com/in/elenaferfor/"
       style: link
       has_icon: true
       icon: linkedin
       icon_position: center
       new_window: true
-    - label: YouTube
-      url: 'https://www.youtube.com/'
-      style: link
-      has_icon: true
-      icon: youtube
-      icon_position: center
-      new_window: true
-    - label: Vimeo
-      url: 'https://vimeo.com/'
-      style: link
-      has_icon: true
-      icon: vimeo
-      icon_position: center
-      new_window: true
   content: >-
-    &copy; Stackbit. All rights reserved. This Jamstack site was created with <a
-    href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank"
-    rel="noopener">Stackbit</a>. Create yours <a
-    href="https://app.stackbit.com/create?theme=diy&utm_source=deployed-footer"
-    target="_blank" rel="noopener">now</a>
+    &copy; Elena Fernandez Formoso, 2021
 sass:
   indentWidth: 4
   style: expanded
